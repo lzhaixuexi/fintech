@@ -1,0 +1,20 @@
+# 敏感/本地文件
+.env
+.workbuddy/
+.venv/
+.idea/
+__pycache__/
+*.pyc
+
+# 大体积数据（超 GitHub 100MB/文件 限制，勿提交；由脚本生成或用户自行放置）
+data/chroma/
+data/models/
+data/market_cache/
+data/race/2/
+data/race/4/
+data/race/5/
+
+# 以下小体积数据保留在仓库（demo 需要）：
+#   data/race/1/clean.xlsx  问句集（0.1MB）
+#   data/race/3/clean.xlsx  公告数据（1.2MB）
+#   data/market/stock_list.csv 股票代码表（111KB）
